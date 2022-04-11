@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context=".login">
+    <ImageView
+        android:id="@+id/shape"
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bubble"
+        tools:ignore="ContentDescription"
+        android:layout_marginLeft="0dp" />
+
+    <!-- Welcome Back! -->
+    <TextView
+        android:id="@+id/welcome_bac"
+        android:layout_width="113dp"
+        android:layout_height="21dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="133dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/welcome_bac"
+        android:textAppearance="@style/welcome_bac" />
+
+    <!-- undraw_mobile_payments_re_7udl 1 -->
+    <ImageView
+        android:id="@+id/undraw_mobi"
+        android:layout_width="182dp"
+        android:layout_height="156dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:background="@drawable/login"
+        android:clipToOutline="true" />
+
+    <!-- button -->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="515dp"
+        android:background="#FE7C54"
+        android:text="@string/Register"
+        android:textAppearance="@style/Register"
+        android:textColor="#FFFFFF" />
+
+    <!-- input -->
+    <View
+        android:id="@+id/input"
+        android:layout_width="310dp"
+        android:layout_height="44dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="368dp"
+        android:background="@drawable/input"
+        />
+    <!-- Enter your email -->
+    <EditText
+        android:id="@+id/enter_your_"
+        android:layout_width="250dp"
+        android:layout_height="44dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="368dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/enter_your_"
+        android:textAppearance="@style/enter_your_"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <!-- input -->
+    <View
+        android:id="@+id/enter_your_password"
+        android:layout_width="310dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="427dp"
+        android:background="@drawable/input"
+        />
+
+    <!-- confilm Password -->
+    <EditText
+        android:id="@+id/confilm_pas"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="427dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/confilm_pas"
+        android:textAppearance="@style/confilm_pas"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+  </RelativeLayout>

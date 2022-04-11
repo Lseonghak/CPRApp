@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#EEEEEE"
+    tools:context=".bluetooth">
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="113dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="count"
+        android:textAppearance="@style/welcome_bac"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp" />
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bubble" />
+
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="@string/status"
+        android:textSize="20sp" />`
+    <LinearLayout
+        android:id="@+id/bluetooth_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintVertical_bias="0.784">
+        <Button
+            android:id="@+id/btn_paired"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:onClick="onClickButtonPaired"
+            android:text="@string/paired_devices"
+            android:gravity="center"
+            android:background="@drawable/left_btn_backgound"
+            android:textColor="@color/black"
+            />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:onClick="onClickButtonSearch"
+            android:background="@drawable/right_btn_backgound"
+            android:gravity="center"
+            android:text="@string/search"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@id/bluetooth_menu" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="515dp"
+        android:background="#FE7C54"
+        android:text="@string/Start_CPR"
+        android:textAppearance="@style/get_started"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

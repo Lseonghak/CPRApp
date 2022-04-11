@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bubble"
+        android:layout_marginLeft="0dp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="133dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="187dp"
+        android:background="@drawable/medicine"
+         />
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="21dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="332dp"
+        android:text="@string/cpr_is_very"
+        android:textAppearance="@style/cpr_is_very"
+        android:gravity="center_horizontal|top"
+        />
+
+    <TextView
+        android:layout_width="199dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="365dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/lorem_ipsum"
+        android:textAppearance="@style/lorem_ipsum" />
+
+    <!-- button -->
+    <Button
+        android:id="@+id/btn_get_start"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="515dp"
+        android:background="#FE7C54"
+        android:text="@string/get_started"
+        android:textAppearance="@style/get_started"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

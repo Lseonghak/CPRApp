@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name"><b>CPR_project</b></string>
+    <!-- strings.xml -->
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et mollis tincidunt tellus adipiscing. Risus sit suspendisse est quis est urna.
+    </string>
+    <string name="cpr_is_very"><b>CPR is very important</b></string>
+    <string name="get_started"><b>Get Started</b></string>
+    <string name="welcome_bac"><b>Welcome Back!</b></string>
+    <string name="Register"><b>Register</b></string>
+    <string name="enter_your_">Enter your name</string>
+    <string name="confilm_pas">Confirm Password</string>
+    <string name="compression">compression</string>
+    <string name="Start_CPR"><b>Start CPR</b></string>
+    <string name="paired_devices">paired devices</string>
+    <string name="search">search</string>
+    <string name="status">status</string>
+    <string name="airway_is_open"><b>airway is open</b></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Restart"><b>GO TO RANK</b></string>
+    <string name="Ranking"><b>MY SCORE</b></string>
+    <string name="Go_to_board"><b>Go to ranking board</b></string>
+    <string name="pressureAvg"><b>mean pressure : </b></string>
+    <string name="countText"><b>count : </b></string>
+
+
+</resources>
