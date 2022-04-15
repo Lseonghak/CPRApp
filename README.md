@@ -17,7 +17,7 @@
 
 
 ## UI 기본 틀
-아래 기사에서 처럼 CPR교육을 진행하는 도중에 자신이 얼마나 정확하게 진행하고 있는지를 실시가능로 확인 가능하도록 UI를 디자인할 계획이다.
+아래 기사에서 처럼 CPR교육을 진행하는 도중에 자신이 얼마나 정확하게 진행하고 있는지를 실시가능로 확인 가능하도록 UI를 디자인할 계획이다.<br>
 http://www.safetimes.co.kr/news/articleView.html?idxno=94064
 
 
@@ -45,4 +45,9 @@ http://www.safetimes.co.kr/news/articleView.html?idxno=94064
 ### 7. 압력센서와 자이로센서와 블루투스를 연동하여 핸드폰으로 출력
    ![img_4.png](img_4.png)<br>
    위 사진은 설정한 시간동안 CPR교육을 진행하는 도중 압력값과 시행 횟수를 보여준다.
-   
+### 8. 참고 문헌
+[1] 대한심폐소생협회. 가슴압박소생술 시행방법 https://www.kacpr.org/page/page.php?category_idx=3&category1_code=1247206302&category2_code=1527742406&page_idx=1120<br>
+[2] 김선우, 용범순, 전용찬, 이용환, 문상국(2021). 아두이노와 블루투스 모듈을 이용한 스마트폰으로 제어하는 원격 도어락<br>
+[3] 이영권, 오경식, 안동순(2017). Arduino Bluetooth 통신을 이용한 사물 인터넷(IoT)<br>
+[4] Android, “android studio Documentation”, https://developer.android.com/guide/topics/connectivity/bluetooth?hl=ko
+
