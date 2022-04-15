@@ -17,6 +17,7 @@
 
 
 ## UI 기본 틀
+아래 기사에서 처럼 CPR교육을 진행하는 도중에 자신이 얼마나 정확하게 진행하고 있는지를 실시가능로 확인 가능하도록 UI를 디자인할 계획이다.
 http://www.safetimes.co.kr/news/articleView.html?idxno=94064
 
 
