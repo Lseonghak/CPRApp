@@ -92,8 +92,8 @@
         android:layout_marginTop="427dp"
         android:background="@android:color/transparent"
         android:hint="@string/confilm_pas"
-        android:textAppearance="@style/confilm_pas"
         android:inputType="textPassword"
+        android:textAppearance="@style/confilm_pas"
         android:textColor="@color/black"
         android:textColorHint="@color/black" />
   </RelativeLayout>

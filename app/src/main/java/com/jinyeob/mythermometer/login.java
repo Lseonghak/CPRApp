@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class login extends AppCompatActivity {
 
@@ -23,9 +24,16 @@ public class login extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), progressbar.class);
                 EditText idText = (EditText)findViewById(R.id.enter_your_);
                 final String id = idText.getText().toString();
-                Log.d("id123",id);
-                intent.putExtra("id",id);
-                startActivity(intent);
+                if(id.isEmpty()){
+                    Toast.makeText(getApplicationContext()
+                            , "Please enter id or password "
+                            , Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Log.d("id123",id);
+                    intent.putExtra("id",id);
+                    startActivity(intent);
+                }
 
 
             }
