@@ -30,6 +30,12 @@ http://www.safetimes.co.kr/news/articleView.html?idxno=94064
   2. 기도확보가 잘 되지 않거나 압박강도가 정확하지 않은 경우가 많이 있다.
   3. cpr교육에 흥미를 느끼고 전체 점수를 통해서 자신이 얼마나 잘했는지를 평가하여 CPR training의 정확도를 높힌다. 이로 인해 소생 성공률을 높힐 수 있다.
 3. 흐름도
+   ![img.png](img.png)
 4. 자이로 센서
+   ![img_2.png](img_2.png)
 5. 압력 센서
+   ![img_1.png](img_1.png)
+6. 블루투스 모듈
+   ![img_3.png](img_3.png)
 6. 압력센서와 자이로센서와 블루투스를 연동하여 핸드폰으로 출력
+   ![img_4.png](img_4.png)
