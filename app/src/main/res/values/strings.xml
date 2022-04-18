@@ -30,6 +30,7 @@
     <string name="Go_to_board"><b>Go to ranking board</b></string>
     <string name="pressureAvg"><b>mean pressure : </b></string>
     <string name="countText"><b>count : </b></string>
+    <string name="airway_is_not_open"><b>airway is not open</b></string>
 
 
 </resources>

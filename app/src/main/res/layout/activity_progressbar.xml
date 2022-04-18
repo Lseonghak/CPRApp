@@ -123,11 +123,10 @@
 
     <TextView
         android:id="@+id/airway"
-        android:layout_width="113dp"
+        android:layout_width="133dp"
         android:layout_height="21dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="100dp"
-        android:gravity="start"
         android:text="@string/airway_is_open"
         android:textAppearance="@style/welcome_bac" />
 
@@ -139,6 +138,7 @@
         android:layout_marginTop="60dp"
         android:text="@string/countText"
         android:textAppearance="@style/welcome_bac" />
+
     <TextView
         android:id="@+id/count"
         android:layout_width="33dp"
@@ -165,6 +165,31 @@
         android:gravity="left"
         android:text="0"
         android:textAppearance="@style/welcome_bac" />
+
+    <TextView
+        android:id="@+id/counText"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="150dp"
+        android:text="Speed UP!"
+        android:textAlignment="center"
+        android:textAppearance="@style/welcome_bac"
+        android:textSize="20dp"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:id="@+id/counText"
+        android:layout_width="110dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="150dp"
+        android:text="Power UP!"
+        android:textAlignment="center"
+        android:textAppearance="@style/welcome_bac"
+        android:visibility="invisible"
+        android:textSize="20dp" />
 
     <Button
         android:id="@+id/btn_go_to_board"
